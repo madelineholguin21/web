@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Elena - Sitio Geográfico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .banner {
+            width: 970px;
+            height: 250px;
+            background-color: #ccc;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sitio Geográfico de Santa Elena</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sitio-geografico.html">Sitio Geográfico</a>
+        <a href="sitios-turisticos.html">Sitios Turísticos</a>
+        <a href="costumbres.html">Costumbres</a>
+        <a href="galeria.html">Galería</a>
+    </nav>
+    <div class="banner">
+        Banner de 970x250 px
+    </div>
+    <section>
+        <h2>Sitio Geográfico</h2>
+        <p>Santa Elena está situada en la región costera del país, conocida por sus hermosos paisajes y su clima agradable.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Santa Elena. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

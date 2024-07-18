@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Elena</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/banner.jpg" alt="Banner de Santa Elena" class="banner">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#geografia">Sitio Geográfico</a></li>
+            <li><a href="#turismo">Sitios Turísticos</a></li>
+            <li><a href="#costumbres">Costumbres</a></li>
+            <li><a href="#galeria">Galería</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h1>Bienvenido a Santa Elena</h1>
+            <p>Santa Elena es una hermosa ciudad con muchas atracciones.</p>
+        </section>
+        <section id="geografia">
+            <h2>Sitio Geográfico</h2>
+            <p>Información sobre la ubicación geográfica de Santa Elena.</p>
+        </section>
+        <section id="turismo">
+            <h2>Sitios Turísticos</h2>
+            <p>Descripción de los sitios turísticos más importantes de Santa Elena.</p>
+        </section>
+        <section id="costumbres">
+            <h2>Costumbres</h2>
+            <p>Costumbres y tradiciones de Santa Elena.</p>
+        </section>
+        <section id="galeria">
+            <h2>Galería</h2>
+            <p>Una colección de imágenes de Santa Elena.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Santa Elena. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

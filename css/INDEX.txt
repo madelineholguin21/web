@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Elena - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .banner {
+            width: 970px;
+            height: 250px;
+            background-color: #ccc;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Santa Elena</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sitio-geografico.html">Sitio Geográfico</a>
+        <a href="sitios-turisticos.html">Sitios Turísticos</a>
+        <a href="costumbres.html">Costumbres</a>
+        <a href="galeria.html">Galería</a>
+    </nav>
+
+    <div class="home-1.png">  <img src="home-1.png" alt="banner santa elena">
+    </div>
+
+    <section>
+        <h2>Santa Elena</h2>
+
+        <p>Bienvenido a la página oficial de la ciudad de Santa Elena. Aquí podrás encontrar información sobre nuestra ciudad, sus costumbres, sitios turísticos y mucho más.</p>
+
+        
+        <p>Santa Elena es una ciudad y cantón ubicada en la provincia de Santa Elena, en la costa occidental de Ecuador. Es conocida por sus playas, atractivos turísticos y su importancia histórica y cultural. La ciudad sirve como la capital provincial y es un centro económico y administrativo para la región. </p>
+
+
+        <p> Algunos aspectos destacados de Santa Elena incluyen:
+
+        <p> <b>Turismo:</b> Las playas como Salinas, La Libertad y Montañita atraen a turistas nacionales e internacionales. Estas playas son famosas por sus actividades acuáticas como el surf, el buceo y la pesca.</p>
+
+        <p> <b>Historia:</b> Santa Elena tiene una rica historia arqueológica. En la región se han encontrado importantes vestigios de culturas precolombinas, como la cultura Valdivia, una de las más antiguas de América del Sur.</p>
+
+        <p> <b> Economía:</b> La economía de Santa Elena se basa en el turismo, la pesca y la agricultura. La ciudad y sus alrededores también tienen una creciente industria petrolera y de gas natural.</p>
+
+        <p> <b> Cultura:</b> Santa Elena tiene una cultura vibrante, con festivales, música y gastronomía que reflejan la diversidad y la riqueza de la costa ecuatoriana.</p>
+
+        <p> <b> Educación:</b> La ciudad alberga instituciones educativas importantes, incluyendo universidades y colegios técnicos, que contribuyen al desarrollo educativo y profesional de la región. </p>
+
+    </section>
+    <footer>
+        <p>&copy; 2024 Santa Elena. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
